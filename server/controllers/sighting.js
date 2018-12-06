@@ -79,7 +79,7 @@ module.exports = {
     }
 
     // Set sorting options
-    if (req.query.sort == null){
+    if (req.query.sort == null) {
       sort = [['created_date', 'ASC']];
     }
     else if (req.query.sort == 'num_bears') {
