@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "bear_api",
+    "password": "fwlnGdjLCqSVdi4",
+    "database": "bear_tracking_app",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "bear_api",
+    "password": "fwlnGdjLCqSVdi4",
+    "database": "bear_tracking_app",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "bear_api",
+    "password": "fwlnGdjLCqSVdi4",
+    "database": "bear_tracking_app",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
