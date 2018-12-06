@@ -5,4 +5,6 @@ module.exports = (app) => {
   app.post('/sighting', sightingsController.create);
   // GET /sighting/:id
   app.get('/sighting/:id', sightingsController.retrieve);
+  // GET /sighting/search
+  app.get('/search', sightingsController.search)
 };
